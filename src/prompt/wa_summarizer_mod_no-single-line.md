@@ -1599,11 +1599,11 @@ Before and while generating the HTML report, follow the methods and recommendati
 
 4. **DO NOT try to fetch information from the files**: `/<account_id>/workItem.xlsx`, `/<account_id>/all.csv`, `/<account_id>/api-full.json` and `/<account_id>/api-raw.json`, or from any file within the `/<account_id>/res/`.
 
-5. **Assess and recommend a database modernization path to MongoDB with its benefits** based on the guidance provided in `/workshop/wa-ss-summarizer/references/migration-mongodb-atlas.pdf`, `/workshop/wa-ss-summarizer/references/modernization-phased-approach.pdf`, and findings identified in `/<account_id>/rds.html` and `/<account_id>/dynamodb.html`. This should outline data strategies using `MongoDB` as a vector database for `generative AI applications`, along with `a high-level overview of migration plans to MongoDB`.
+5. **Assess and recommend a database modernization path to MongoDB with its benefits** based on the guidance provided in `/workshop/wa-ss-summarizer/references/migration-mongodb-atlas.md`, `/workshop/wa-ss-summarizer/references/modernization-phased-approach.md`, and findings identified in `/<account_id>/rds.html` and `/<account_id>/dynamodb.html`. This should outline data strategies using `MongoDB` as a vector database for `generative AI applications`, along with `a high-level overview of migration plans to MongoDB`.
 
-6. **Assess and recommend an application modernization path to Amazon Elastic Container Service(ECS) including guidance on how to containerize applications currently running on Amazon EC2** based on the guidance provided in `/workshop/wa-ss-summarizer/references/ecs-bestpracticesguide.pdf`, `/workshop/wa-ss-summarizer/references/strategy-modernizing-applications.pdf`, `/workshop/wa-ss-summarizer/references/modernization-phased-approach.pdf`, and findings identified in `/<account_id>/ec2.html`.
+6. **Assess and recommend an application modernization path to Amazon Elastic Container Service(ECS) including guidance on how to containerize applications currently running on Amazon EC2** based on the guidance provided in `/workshop/wa-ss-summarizer/references/ecs-bestpracticesguide.md`, `/workshop/wa-ss-summarizer/references/strategy-modernizing-applications.md`, `/workshop/wa-ss-summarizer/references/modernization-phased-approach.md`, and findings identified in `/<account_id>/ec2.html`.
 
-7. **Assess and recommend Elastic Kubernetes Service (Amazon EKS) best practices** based on the guidance provided in `/workshop/wa-ss-summarizer/references/eks-bpg.pdf` and findings identified in `/<account_id>/eks.html`.
+7. **Assess and recommend Elastic Kubernetes Service (Amazon EKS) best practices** based on the guidance provided in `/workshop/wa-ss-summarizer/references/eks-bpg.md` and findings identified in `/<account_id>/eks.html`.
 
 
 ### Generate HTML Report
